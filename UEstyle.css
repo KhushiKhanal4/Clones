@@ -1,3 +1,6 @@
+*{
+    margin-left: 22px;
+}
 .container
 {
     display: flex;
@@ -21,7 +24,7 @@ font-size: medium;
 .logo{
 align-self: flex-start;
 position: relative;
-right: 300px;
+right: 107px;
 top:10px;
 }
 
@@ -46,7 +49,7 @@ font-family: sans-serif;
 width: 65vw;
 text-align: center;
 }
-button{
+.buttond{
 background-color: #09a6bd;
 border: none;
 padding: 12px;
@@ -54,14 +57,88 @@ border-radius: 8px;
 color: white;
 font-family: sans-serif;
 
+
 }
 .download
 {
 /* font-size: medium; */
 display: flex;
 align-items: center;
-margin-left: 16vw;
+margin-left: 5vw;
 font-size: 20px;
 gap: 13px;
 font-family: sans-serif;
+}
+.second
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+    
+    
+    /* justify-content: center; */
+}
+
+.btn1{ 
+    
+    
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    background-color: #09a6bd;
+    border-color: #09a6bd;
+}
+.btn2{
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    background-color: #81c780;
+    border-color:#81c780;
+}
+
+
+.lang{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 27px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 35px;
+    margin-right: 69px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+   
+}
+.items{
+    background-color: #80808021;
+    padding: 22px 42px;
+}
+
+@media screen and (max-width:1150px){
+
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 35px;
+    margin-right: 69px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+   
+}
 }
