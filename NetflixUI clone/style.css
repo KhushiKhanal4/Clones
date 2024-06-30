@@ -63,16 +63,17 @@ body {
     max-width: 100%;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.1s;
-    
+
 
 }
 
 .signbtn:active {
-transform: scale(0.95);
+    transform: scale(0.95);
 }
+
 .signbtn:hover {
     background-color: #aa0303;
-    
+
 }
 
 .text {
@@ -158,73 +159,76 @@ input:not(:placeholder-shown)+.placeholder {
     font-weight: 600;
 }
 
-.box1{
-    position:relative;
+.box1 {
+    position: relative;
     z-index: 1;
     color: white;
     font-family: "Poppins", sans-serif;
-    
-    
+
+
 }
 
 
-.main-text{
+.main-text {
     font-size: 3rem;
     padding: 15vw 0px 0px 11vw;
     font-weight: 1000;
     letter-spacing: 1.2px;
 }
-.sub-text{
+
+.sub-text {
     padding: 10px 0vw 13px 11vw;
     font-size: 1.5rem;
     line-height: 30px;
     font-weight: 350;
 }
 
-.box2{
+.box2 {
     width: 66%;
 }
-.tv
-{
+
+.tv {
     width: 35vw;
     padding: 7vw 9vw 0vw 6vw;
     position: relative;
     z-index: 1;
 }
 
-.vdo{
+.vdo {
     bottom: 54%;
     left: 20%;
-     position: relative;
+    position: relative;
     z-index: 0;
 }
-.next{
+
+.third {
     flex-direction: row-reverse;
-    gap:22px;
+    gap: 22px;
 }
 
-.mobile{
-    
+.mobile {
+
     width: 510px;
     padding: 60px 0px 0px 160px;
     position: relative;
     z-index: 0;
 }
 
-.text1{
+.text1 {
     font-size: 3rem;
     padding: 11vw 121px 0px 0px;
     font-weight: 1000;
     letter-spacing: 1.2px;
 }
-.text2{
+
+.text2 {
     padding: 9px 15vw 0px 0vw;
     font-size: 1.5rem;
     line-height: 30px;
     font-weight: 350;
 }
 
-.overlapbox{
+.overlapbox {
     border: 2px solid grey;
     border-radius: 15px;
     background-color: black;
@@ -232,28 +236,101 @@ input:not(:placeholder-shown)+.placeholder {
     width: 39%;
     margin: -132px 261px;
     position: relative;
-display: flex;
+    display: flex;
     gap: 11px;
     /* justify-content: center; */
     align-items: center;
     justify-items: center;
 }
 
-.ST
-{
+.ST {
     width: 55px;
     padding: 6px 14px 8px 14px
-  
 }
 
-.p1{
+.txt {
+    font-family: "Poppins", sans-serif;
+}
+
+.p1 {
     color: white;
 }
-.p2
-{
+
+.p2 {
     color: rgb(3, 102, 250);
     padding-top: 5px;
 }
-.arrow{
+
+.arrow {
     margin-left: 22px;
+}
+
+.fourth {
+    height: 32vw;
+
+}
+
+.adjust1 {
+    padding: 100px 55vw 0px 11vw;
+}
+
+.adjust2 {
+    padding: 10px 55vw 13px 11vw;
+}
+
+.fifth {
+    flex-direction: row-reverse;
+    gap: 22px;
+}
+
+.kids {
+    width: 523px;
+    padding: 101px 0px 0px 160px;
+    position: relative;
+    z-index: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+
+.line {
+    background-color: grey;
+    height: 8px;
+}
+
+.head {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 90px 0px 32px 0px;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.questionbox {
+    height: 22px;
+    background-color: rgb(45, 45, 45);
+    margin: 6px 173px;
+    padding: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.questionbox:hover{
+    background-color: rgb(77, 76, 76);
+transition: background-color 0.3s, transform 0.1s;
+}
+.question {
+    color: white;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
 }
